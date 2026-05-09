@@ -101,7 +101,7 @@ class FFmpegModernWorkstation(ctk.CTk):
             "1. 【并发限制】软件无并发限制，支持多任务并发渲染。但请注意您的GPU性能。\n"
             "2. 【日志系统】软件日志和 FFmpeg 引擎底层双监控窗格。方便查看运行状态。\n"
             "3. 【硬件嗅探】软件会扫描您的硬件信息，仅自动选择码器，不会发送至网络。\n"
-            "4. 【版权声明】本软件仅提供GUI图形化界面，底层处理引擎使用FFmpeg软件。"
+            "4. 【版权声明】本软件仅提供GUI图形化界面，底层处理引擎使用FFmpeg软件。\n"
             "5. 【发布说明】软件开源在github上，如果你是付费购买的恭喜你你被诈骗了。"
         )
         ctk.CTkLabel(popup, text=info_text, font=("Microsoft YaHei", 13), justify="left").pack(padx=20, pady=10)
